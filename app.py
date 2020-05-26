@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Welcome Burak V Latest"
+    return "Welcome Burak Webhook"
 
 @app.route('/how are you')
 def hello():
